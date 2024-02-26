@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f05469217f.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body> 
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/d2.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about ">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>        
+        </nav>
+    </div>
+
+        <div class="header-text">
+        <p>Full Stack Developer</p>
+        <h1>HI, I'm <span>Rushikesh<br> Jadhav</span> From Pune</h1><br>
+        
+    </div>
+    </div>
+
+   <!--------------------- -----------about------------------------ -->
+   
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/AK.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p align="justify"> &nbsp; &nbsp; Hi, I'm Rushikesh Arun Jadhav, Highly motivated and skilled Fresher
+                        Computer Science with a passion for developing innovative software
+                        solutions.Proficient in various programming languages including 
+                        JAVA, HTML,CSS,Javascript,C,MYSQL with Strong Communication, Analytical and Problem-Solving Skills.
+                        Adaptable team player with a positive attitude and a drive for excellence. Ready to contribute and make
+                        a positive impact while acquiring practical experience in a dynamic work environment.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Full-Stack Development</span><br><br>JAVA</li>
+                            <li>React JS</li>
+                            <li>HTML, CSS</li>
+                            <li>Javascript</li>
+                            <li>SQL, MYSQL</li>
+                            <li>MongoDb</li>
+                            <li>Angular</li>
+                            <li>C</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Portfolio Website with Contact Form</span><br></li>
+                            <li>Developed a dynamic and responsive portfolio website utilizing HTML, CSS, and 
+                                JavaScript to showcase my skills and projects. The website features a sleek design 
+                                with smooth navigation and an interactive user interface.</li>
+
+                            <li><span>E-Commerce Frontend Website</span><br></li>
+                            <li>The E-Commerce Frontend Website is a fully functional online shopping platform built using ReactJS. 
+                                The website offers a user-friendly interface for customers to browse, search, and purchase products 
+                                across various categories including Men, Women, and Kids fashion. It includes essential features 
+                                such as a shopping cart, user authentication with a login page, and a seamless checkout process.</li>
+
+                                <li><span>Netflix Website Homepage Clone</span><br></li>
+                            <li>In this project, we aim to recreate the homepage of the popular streaming platform,
+                                Netflix, using HTML, CSS, and JavaScript. The focus will be on mimicking the layout,
+                                design, and functionality of the Netflix homepage, providing users with a visually
+                                similar and interactive experience.</li>
+
+                                <li><span>Beyond Vesion Designs</span><br></li>
+                                <li>"Beyond Vision Designs brings your dream interiors to life with innovative solutions 
+                                and exquisite designs. Our WordPress website showcases our portfolio and services with 
+                                fully functional features, ensuring seamless navigation and easy access to our expertise. 
+                                Explore our site for a glimpse into the world of captivating interiors tailored to your unique 
+                                style and preferences."</li>
+
+                                <li><span>Netflix Website Homepage Clone with Animated Logo</span></li>
+                                <li>In this project, we aim to recreate the homepage of the popular streaming platform,<br> 
+                                    Netflix, using HTML, CSS, and JavaScript. The focus will be on mimicking the layout,<br> 
+                                    design, and functionality of the Netflix homepage, providing users with a visually<br>
+                                    similar and interactive experience.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Full-Stack Developer Course at Seed-Infotech Vimannagar, Pune</li>
+                            <li><span>2022</span><br>BSC(CS) From Pune university</li>
+
+                            
+                        </ul>
+                    </div>
+
+                  
+
+                    <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>Full-Stack Developer</span><br> Seed-Infotech Vimannagar, Pune</li>
+                            <li><span>Product Designing & Development</span><br>TATA Technologies, Pune 2019</li>
+                            
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- -------------------------portfolio---------------------------------  -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="work-list">
+        <div class="work">
+            <img src="Images/E-Commerce.png" alt="">
+            <div class="layer">
+                <h3>E-Commerce Frontend Website</h3>
+                <p>The E-Commerce Frontend Website is a fully functional online shopping platform built using ReactJS. 
+                    The website offers a user-friendly interface for customers to browse, search, and purchase products 
+                    across various categories including Men, Women, and Kids fashion. It includes essential features 
+                    such as a shopping cart, user authentication with a login page, and a seamless checkout process.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="Images/Netflix Homepage Clone.png" alt="">
+            <div class="layer">
+                <h3>Netflix Website Homepage Clone</h3>
+                <p>In this project, we aim to recreate the homepage of the popular streaming platform,<br> 
+                    Netflix, using HTML, CSS, and JavaScript. The focus will be on mimicking the layout,<br> 
+                    design, and functionality of the Netflix homepage, providing users with a visually<br>
+                    similar and interactive experience.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="Images/BV.png" alt="">
+            <div class="layer">
+                <h3>Beyond Vesion Designs</h3>
+                <p>The E-Commerce Frontend Website is a fully functional onli a seamless checkout process.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="Images/Netflix Animated Logo.png" alt="">
+            <div class="layer">
+                <h3>Netflix Website Homepage Clone with Animated Logo</h3>
+                <p>In this project, we aim to recreate the homepage of the popular streaming platform,<br> 
+                    Netflix, using HTML, CSS, and JavaScript. The focus will be on mimicking the layout,<br> 
+                    design, and functionality of the Netflix homepage, providing users with a visually<br>
+                    similar and interactive experience.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+           </div>
+       </div>
+   </div>
+
+
+
+<!-- --------------------------------contact------------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i><a href="mailto:j.rushikesh013@gmail.com">j.rushikesh013@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i><a href="tel:+918485050671">+91-8485050671</a></p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/__rushuuuuuu_013__?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://in.linkedin.com/in/rushikeshjadhav013"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100014217517418"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="Images/Rushikesh Jadhav Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea><br>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Rushikesh Jadhav.</p>
+    </div>
+</div>
+
+<!------------------------------------- SCRIPT------------------------------------ -->
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+    
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyHSl7O8a_f6zOfmc5e4GG70raOunNg1zi9SdFyCiS4ItBTC0KE5yrZ7MdCoOejJPYa4Q/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+ 
+</body>
+</html>

@@ -1,0 +1,29 @@
+Portfolio Website with Contact Form | [Rushikesh Jadhav]
+
+Developed a dynamic and responsive portfolio website utilizing HTML, CSS, and 
+JavaScript to showcase my skills and projects. The website features a sleek design 
+with smooth navigation and an interactive user interface.
+
+Key Features:
+
+Responsive Design: Ensured optimal user experience across various devices, from 
+desktops to mobiles.
+Project Showcase: Highlighted my work through a dedicated section with project 
+details and images.
+Contact Form Integration: Implemented a functional contact form using JavaScript 
+for seamless communication with visitors.
+Validation and Security: Incorporated form validation to enhance user input accuracy 
+and included security measures to protect against common vulnerabilities.
+
+
+This project not only demonstrates my proficiency in front-end technologies but also 
+showcases my attention to detail and commitment to creating user-friendly web experiences. 
+The live contact form adds a practical dimension, allowing potential employers and collaborators 
+to reach out easily. Visit the live project at [your-portfolio-url.com] to explore further.
+
+
+
+
+
+
+              
