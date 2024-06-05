@@ -1,2 +1,2 @@
 # Rushikesh-Jadhav-Portfolio-Website
-Portfolio Website with Contact Form | [Rushikesh Jadhav]  Developed a dynamic and responsive portfolio website utilizing HTML, CSS, and  JavaScript to showcase my skills and projects. The website features a sleek design  with smooth navigation and an interactive user interface.
+This project aims to create a fully responsive portfolio website using HTML, CSS, and JavaScript. The website will showcase all your skills, detailed information about you, and provide a downloadable resume. It will include links to your social media profiles and feature a highly optimized contact form with a 40% extra smooth performance enhancement for seamless user interactions.
