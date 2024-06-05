@@ -1,4 +1,4 @@
-Portfolio Website with Contact Form | [Rushikesh Jadhav]
+Fully Responsive Portfolio Website with Contact Form | [Rushikesh Jadhav]
 
 This project aims to create a fully responsive portfolio website using HTML, CSS, and JavaScript. 
 The website will showcase all your skills, detailed information about you, and provide a downloadable 
